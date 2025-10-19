@@ -1,0 +1,19 @@
+# Core ML/LangChain
+#torch provided by base docker image
+transformers>=4.40
+langchain
+langchain-community
+sentence-transformers
+chromadb
+spacy
+pymupdf
+numpy<2.0
+
+# Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Utilities
+#sqlalchemy
+#psycopg2-binary
